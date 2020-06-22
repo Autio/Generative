@@ -44,9 +44,7 @@ void draw() {
     
        fill(diam / 2, 50); // background colour weirdness   
 
-    
        ellipse(centX1, centY1, tempdiam, tempdiam);
-
        ellipse(centX2, centY2, tempdiam, tempdiam);
        ellipse(centX3, centY3, tempdiam, tempdiam);
 

@@ -40,8 +40,8 @@ class Circle {
     y = random(height);
     fillcol = color(random(255), random(255), random(255));
     radius = random(120) + 10; 
-    int radiusIncrement = random(3) + 2;
-    for (int i = 0; i <= radius; i+= 7) {
+    int radiusIncrement = int(random(5)) + 5;
+    for (int i = 0; i <= radius; i+= radiusIncrement) {
         stroke(fillcol, 255-(255 * i/radius));
         ellipse(x, y, i, i);
     }
